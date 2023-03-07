@@ -5,30 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <link rel="stylesheet" href="./fonts/base.css">
     <title>C-VINYL</title>
+    <script defer>
+        let icon=()=>
+        {
+            alert("Sorry, this feature has not been defined!")
+        }
+    </script>
 </head>
 <body>
+<!--HEADER HAI-->
     <div class="header">
         <div class="header__navbar">
             <ul class="header__navbar-list header__navbar-list-item">
-                <li class="header__navbar-item">Products</li>
-                <li class="header__navbar-item">Starter Packs</li>
-                <li class="header__navbar-item">Services</li>
-                <li class="header__navbar-item">About Us</li>
+                <li ><div class="header__navbar-item"> Products</div></li>
+                <li ><div class="header__navbar-item"> Starter Packs</div></li>
+                <li ><div class="header__navbar-item"> Services</div></li>
+                <li ><div class="header__navbar-item"> About Us</div></li>
             </ul>
-            <div class="header__navbar__vinyl"><i class="fa-solid fa-compact-disc"></i>C-VINYL</div>
-            <ul class="header__navbar-list header__navbar-list-icon">
+            <div class="header__navbar-vinyl">
+                <img src="./img/dist.png" alt="" class="header__navbar-vinyl-dist">
+                <span class="header__navbar-vinyl-text">C-VINYL</span>
+            </div>
+            <ul class="header__navbar-list">
                 <li class="header__navbar-icon">
-                    <i class="fa-regular fa-cart-shopping"></i>
-                    <i class="fa-solid fa-globe"></i>
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="img/cart.png" alt=""></div>
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="img/language.png" alt=""></div>
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="img/searcher.png" alt=""></div>
                 </li>
                 <li class="header__navbar-register">
-                    <button>Log in</button>
-                    <button>Sign up</button>
+                    <button class="header__navbar-register-button" onclick="icon()">Log in</button>
+                    <button class="header__navbar-register-button" onclick="icon()">Sign up</button>
                 </li>
             </ul>
         </div>
+
+<!--CONTAINER HIEU-->
     <div class="container">
         <div class="container__1">
             <div class="container__title">SUGGESTION</div>

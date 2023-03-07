@@ -1,0 +1,22 @@
+@keyframes login-effect 
+{
+    0% {
+      /* Trạng thái ban đầu của nút login */
+      background-color: #CEA69D;
+      color: white;
+      transform: scale(1);
+    }
+    50%
+    {
+        background-color: #2196F3;
+        color: white;
+        transform: scale(1.2);
+    }
+    100%
+    {
+        /* Trạng thái cuối cùng của nút login */
+    background-color: #CEA69D;
+    color: white;
+    transform: scale(1);
+    }
+}
