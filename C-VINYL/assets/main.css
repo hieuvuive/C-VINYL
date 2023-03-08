@@ -36,10 +36,6 @@ body
     display: flex;
     justify-content: space-between;
 }
-.header__navbar-vinyl
-{
-    width: 20%;
-}
 .header__navbar-list
 {
     display: flex;
@@ -51,17 +47,80 @@ body
     padding: 0;
     width: 40%;
 }
-.header__navbar-list-icon
+.header__navbar-list
 {
     padding: 0;
     width: 40%;
 }
+.header__navbar-item
+{
+    font-weight: bold;
+    font-size: 1.1 rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header__navbar-item:hover
+{
+    cursor: pointer;
+    color: rgba(71, 10, 71, 0.865);
+    font-weight: bold;
+}
+.header__navbar-vinyl
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+}
+.header__navbar-vinyl:hover
+{
+    cursor: pointer;
+}
+.header__navbar-vinyl-dist
+{
+    width: 38px; height: 38px;
+}
+.header__navbar-vinyl-text
+{
+    font-weight:bold;
+    font-size: 1.4rem;
+}
+.header__navbar-icon
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header__navbar-icon--child
+{
+    width: 25px;height: 25px;
+}
+.header__navbar-icon--child:hover
+{
+    cursor: pointer;
+}
 .header__navbar-register
+{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.header__navbar-register-button
 {
     border-radius: 24px;
     font-size: 1.2rem;
+    width: 103px;height: 48px;
 }
-
+.header__navbar-register-button:hover{
+    cursor: pointer;
+    background-color: #CEA69D;
+    color: #FFFFFF;
+}
+.header__navbar-register-button:active{
+    cursor: pointer;
+    animation-name: login-effect;
+    animation-duration: 1s;
+    animation-timing-function:ease;
+}
 /* .container {
     
 } */
