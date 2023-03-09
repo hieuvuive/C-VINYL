@@ -14,8 +14,10 @@ body
 .app
 {
     position: absolute;
-    width: 1440px;
+    width: 100%;
+    max-width: 1200px;
     height: 5323px;
+    margin: 0 2.5%;
 }
 .header
 {
@@ -231,7 +233,8 @@ body
 } */
 .footer
 {
-    width: 1440px;height: 247px;bottom: 0;left: 0;top: 5076px;
+    display: block;
+    width: 1200pz;height: 247px;bottom: 0;left: 0;top: 5076px;
     position: relative;
     background-color: #CEA69D;
 }
@@ -240,14 +243,15 @@ body
     display: flex;
     justify-content: space-between;
     position: relative;
-    left: 134px; top:51px;
-    height: 147px; width: 1172px;
+    left: 11.67%;top:20.65%;
+    height: 59.5%; width: 81.39%;
 }
 .footer__group-1
 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 174px;
+    width: 14.5%;
+    flex-shrink: 1;
 }
 
