@@ -234,7 +234,7 @@ body
 .footer
 {
     display: block;
-    width: 1200pz;height: 247px;bottom: 0;left: 0;top: 5076px;
+    width: 1200pz;height: 247px;bottom: 0;left: 0;
     position: relative;
     background-color: #CEA69D;
 }
@@ -253,5 +253,17 @@ body
     align-items: center;
     width: 14.5%;
     flex-shrink: 1;
+}
+.footer__font
+{
+    font-family: Arial, Helvetica, sans-serif;color: #fff;
+}
+.footer__group-line
+{
+    background-color: #fff;height: 1px; margin: 10px 0;
+}
+.footer__child
+{
+    display: flex; justify-content: space-between; margin-bottom: 10px;
 }
 
