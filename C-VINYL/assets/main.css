@@ -13,11 +13,9 @@ body
 }
 .app
 {
-    position: absolute;
-    width: 100%;
-    max-width: 1200px;
-    height: 5323px;
-    margin: 0 2.5%;
+    width: 1200px;
+    max-width: calc(100%-20px);
+    margin: 0 auto;
 }
 .header
 {
