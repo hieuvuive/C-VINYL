@@ -54,8 +54,20 @@ body
 #header__navbar-item--1, #header__navbar-item--2, #header__navbar-item--3, #header__navbar-item--4
 {
     text-decoration: none;
+    position: relative;
     color: black;
 }
+.header__navbar-item__activated::after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: calc(50% - 30px);
+    right: 0;
+    height: 4px;
+    width: 60px;
+    background-color: black;
+}
+
 .header__navbar-list
 {
     padding: 0;
