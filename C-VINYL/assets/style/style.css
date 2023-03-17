@@ -13,7 +13,7 @@ body
 }
 .app
 {
-    width: 1200px;
+    width: 100%;
     max-width: calc(100%-20px);
     margin: 0 auto;
 }
@@ -125,12 +125,13 @@ body
 } */
 
 .container__1 {
-    width: 100%;
+    width: 80%;
     height: 890px;
     left: 0px;
     top: 0px;
     background: #A56541;
     position: relative;
+    margin-left: 10%;
 }
 
 .container__title {
@@ -138,7 +139,7 @@ body
     height: 133px;
     left: 347px;
     top: 77px;
-    margin-left: 28%;
+    margin-left: 20%;
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
@@ -163,6 +164,7 @@ body
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
     border-radius: 3px;
     position: absolute;
+    
 }
 
 .container__disc-pic {
@@ -189,8 +191,8 @@ body
     line-height: 30px;
     display: flex;
     display: block;
-    margin-left: 70%;
-    margin-top: 14%;
+    margin-left: 75%;
+    margin-top: 20%;
     color: #FFFFFF;
 }
 
@@ -218,7 +220,7 @@ body
     
     border: 2px solid #FFFFFF;
     border-radius: 200px;
-    margin-left: 76%;
+    margin-left: 65vw;
     display: flex;
     justify-content: center;
     align-items: center;
