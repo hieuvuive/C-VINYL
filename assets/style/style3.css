@@ -15,6 +15,7 @@ body
     width: 1200px;
     max-width: calc(100%-20px);
     margin: 0 auto;
+    background-color: #A78D67;
 }
 .header
 {
@@ -23,6 +24,7 @@ body
     height: 90px;
     position: relative;
     top: 0;right: 0;left: 0;z-index: 10;
+    background-color: #CAB7A2;
 }
 .grid
 {
@@ -47,30 +49,28 @@ body
     padding: 0;
     width: 40%;
 }
-#header__navbar-item--1
-{
-    background-color: orange;
-}
 .header__navbar-item
 {
     font-weight: bold;font-size: 1.1 rem;font-family: Arial, Helvetica, sans-serif;
-    position: relative;
 }
 #header__navbar-item--1, #header__navbar-item--2, #header__navbar-item--3, #header__navbar-item--4
 {
     text-decoration: none;
+    position: relative;
     color: black;
 }
 .header__navbar-item__activated::after{
     content: "";
     position: absolute;
-    top: 100%;
-    left: calc(50% - 30px);
-    right: 0;
-    height: 4px;
-    width: 60px;
-    background-color: black;
+    top: -99%;
+    left: calc(20% - 30px);
+    right: 0px;
+    height: 89px;
+    width: 120px;
+    background-color: #A56541;
+    z-index: -1;
 }
+
 .header__navbar-list
 {
     padding: 0;
@@ -89,6 +89,11 @@ body
     width: 20%;
     align-items: center;
 }
+#header__navbar-vinyl--return
+{
+    text-decoration: none;
+    color: black;
+}
 .header__navbar-vinyl:hover
 {
     cursor: pointer;
@@ -96,11 +101,6 @@ body
 .header__navbar-vinyl-dist
 {
     width: 38px; height: 38px;
-}
-#header__navbar-vinyl--return
-{
-    text-decoration: none;
-    color: black;
 }
 .header__navbar-icon
 {
@@ -144,12 +144,13 @@ body
 } */
 
 .container__1 {
-    width: 100%;
+    width: 80%;
     height: 890px;
     left: 0px;
     top: 0px;
     background: #A56541;
     position: relative;
+    margin-left: 10%;
 }
 
 .container__title {
@@ -157,7 +158,7 @@ body
     height: 133px;
     left: 347px;
     top: 77px;
-    margin-left: 28%;
+    margin-left: 20%;
 
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
