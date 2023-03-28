@@ -3,9 +3,6 @@
 */
 .container__p2{
 }
-.container__p2-content{
-    
-}
 .container__p2__1{
     position: relative;
     width: 100%;
@@ -51,4 +48,35 @@
 .container__p2__1-item3{
     display: flex;
     flex-wrap: wrap;
+}
+.container__p2__3{
+    display: flex;
+    flex-direction: column;
+}
+.container__p2__3-tutorial--text{
+    padding: 25px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+    font-size: 1.4rem;
+}
+.container__p2__3-tutorial--box{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.container__p2__3-choosingthephonograph{
+
+}
+.container__p2__3-choosingshop--text{
+    font-size: 1.4rem;
+    padding: 25px 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 1000;
+}
+.container__p2__3-choosingshop--box{
+    display: flex;
+    justify-content: space-around;
+    background-color: #EBDADA;
+    /* padding: 0 70px; */
+    margin: 0 70px;
 }
