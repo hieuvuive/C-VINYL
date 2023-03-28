@@ -53,30 +53,28 @@
     display: flex;
     flex-direction: column;
 }
-.container__p2__3-tutorial--text{
+.container__p2__3-child--text{
     padding: 25px 70px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
     font-size: 1.4rem;
 }
-.container__p2__3-tutorial--box{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+#container__p2__3-child--box_tutorial{
+    background-color: #fff;
 }
-.container__p2__3-choosingthephonograph{
-
+#container__p2__3-child--thelast{
+    margin-bottom: 50px;
 }
-.container__p2__3-choosingshop--text{
-    font-size: 1.4rem;
-    padding: 25px 70px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 1000;
-}
-.container__p2__3-choosingshop--box{
+.container__p2__3-child--box{
     display: flex;
     justify-content: space-around;
     background-color: #EBDADA;
-    /* padding: 0 70px; */
     margin: 0 70px;
+}
+.container__p2__3-child--option{
+    transition: 0.5s;
+}
+.container__p2__3-child--option:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
