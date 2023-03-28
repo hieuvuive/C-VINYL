@@ -292,6 +292,48 @@ body
     margin-top: -300px;
 }
 
+/* container__3*/
+
+.container__3 {
+    width: auto;
+    height: 800px;
+    background-color: #FFFFFF;
+}
+
+.container__3-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 49px;
+
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.item_1 {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.item_2 {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.display {
+    position: absolute;
+    width: 120px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.pages {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-left: 835px;
+    margin-top: 25px;
+}
 /* .footer {
     
 } */
