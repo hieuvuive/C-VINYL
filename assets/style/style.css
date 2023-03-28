@@ -14,7 +14,7 @@ body
 }
 .app
 {
-    width: 1200px;
+    width: 100vw;
     max-width: calc(100%-20px);
     margin: 0 auto;
     
@@ -145,7 +145,7 @@ body
 } */
 
 .container__1 {
-    width: 100%;
+    width: 100vw;
     height: 890px;
     left: 0px;
     top: 0px;
@@ -154,12 +154,7 @@ body
 }
 
 .container__title {
-    width: 746px;
-    height: 133px;
-    left: 347px;
     top: 77px;
-    margin-left: 20%;
-
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
@@ -174,8 +169,8 @@ body
 
 .container__famyly-pic {
     height: 564px;
-    left: 176px;
-    top: 191px;
+    left: 20px;
+    top: 140px;
     width: 564px;
     
     background: url(image.png);
@@ -189,8 +184,8 @@ body
 .container__disc-pic {
     height: 500px;
     width: 500px;
-    left: 490px;
-    top: 223px;
+    left: 330px;
+    top: 170px;
     
     background: url(.png);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -199,10 +194,6 @@ body
 
 .container__text {
     width: 369px;
-    left: 1007px;
-    top: 360px;
-    height: 140px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -210,9 +201,10 @@ body
     line-height: 30px;
     display: flex;
     display: block;
-    margin-left: 75%;
+    margin-left: 71%;
     margin-top: 20%;
     color: #FFFFFF;
+    
 }
 
 .container__singer {
@@ -228,7 +220,6 @@ body
 
 .container__buy {
     height: 60.2px;
-    left: 1085px;
     top: 501px;
     width: 185px;
     color: #000;
@@ -239,7 +230,8 @@ body
     
     border: 2px solid #FFFFFF;
     border-radius: 200px;
-    margin-left: 65vw;
+    margin-left: 80vw;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
