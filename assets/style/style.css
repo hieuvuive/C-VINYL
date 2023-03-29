@@ -14,7 +14,7 @@ body
 }
 .app
 {
-    width: 1200px;
+    width: 100vw;
     max-width: calc(100%-20px);
     margin: 0 auto;
     
@@ -145,7 +145,7 @@ body
 } */
 
 .container__1 {
-    width: 100%;
+    width: auto;
     height: 890px;
     left: 0px;
     top: 0px;
@@ -154,12 +154,7 @@ body
 }
 
 .container__title {
-    width: 746px;
-    height: 133px;
-    left: 347px;
     top: 77px;
-    margin-left: 20%;
-
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: normal;
     font-weight: 400;
@@ -173,10 +168,10 @@ body
 }
 
 .container__famyly-pic {
-    height: 564px;
-    left: 176px;
-    top: 191px;
-    width: 564px;
+    height: 400px;
+    left: 105px;
+    top: 200px;
+    width: 400px;
     
     background: url(image.png);
     border: 3px solid #FFFFFF;
@@ -187,10 +182,10 @@ body
 }
 
 .container__disc-pic {
-    height: 500px;
-    width: 500px;
-    left: 490px;
-    top: 223px;
+    height: 350px;
+    width: 350px;
+    left: 330px;
+    top: 230px;
     
     background: url(.png);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -199,10 +194,6 @@ body
 
 .container__text {
     width: 369px;
-    left: 1007px;
-    top: 360px;
-    height: 140px;
-    
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -210,9 +201,10 @@ body
     line-height: 30px;
     display: flex;
     display: block;
-    margin-left: 75%;
+    margin-left: 63.5%;
     margin-top: 20%;
     color: #FFFFFF;
+    
 }
 
 .container__singer {
@@ -228,7 +220,6 @@ body
 
 .container__buy {
     height: 60.2px;
-    left: 1085px;
     top: 501px;
     width: 185px;
     color: #000;
@@ -239,7 +230,8 @@ body
     
     border: 2px solid #FFFFFF;
     border-radius: 200px;
-    margin-left: 65vw;
+    margin-left: 72vw;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -252,6 +244,96 @@ body
     box-shadow: 4px 4px 6px brown;
 }
 
+/*Container__2*/
+
+.container__2 {
+    width: auto;
+    height: 2180px;
+    background: linear-gradient(180deg, #E8C0B7 0%, #C4887B 19.27%, #E8C1B8 55.21%, #ECDBD5 100%);
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    
+}
+
+.text {
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    position: absolute;
+    margin-top: 100px;
+    
+}
+
+.title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 73px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.content {
+    font-style: normal;
+    font-size: 10px;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+.question {
+    color: #000;
+}
+
+.human {
+    width: 300px;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: -300px;
+}
+
+/* container__3*/
+
+.container__3 {
+    width: auto;
+    height: 800px;
+    background-color: #FFFFFF;
+}
+
+.container__3-title {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 49px;
+
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.item_1 {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.item_2 {
+    width: 1000px;
+    margin-top: 30px;
+}
+
+.display {
+    position: absolute;
+    width: 120px;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.pages {
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    margin-left: 835px;
+    margin-top: 25px;
+}
 /* .footer {
     
 } */
