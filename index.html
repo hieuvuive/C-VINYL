@@ -14,6 +14,12 @@
             alert("Sorry, this feature has not been defined!")
         }
     </script>
+    <script>
+        const signupButton = document.querySelector('#sign-up');
+        const modal = document.querySelector('.modal');
+        
+        signupButton.addEventListener('click', function() {modal.style.display = 'flex'});
+    </script>
 </head>
 <body>
     
@@ -38,7 +44,7 @@
                     </li>
                     <li class="header__navbar-register">
                         <button class="header__navbar-register-button" onclick="icon()">Log in</button>
-                        <button class="header__navbar-register-button" onclick="icon()">Sign up</button>
+                        <button class="header__navbar-register-button" id="sign-up">Sign up</button>
                     </li>
                 </ul>
             </div>
@@ -141,6 +147,48 @@
                             <div class="footer__font">Private Policy</div>                      
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="model__overlay"></div>
+                <div class="auth-form">
+            <div class="modal__inner">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                            <div class="auth-form__assign">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng kí bạn đã đồng ý với C-VINYL về
+                                    <a class="auth-form__text-link" href="">
+                                        Điều khoản dịch vụ
+                                    </a>&
+                                    <a class="auth-form__text-link" href="">
+                                        Chính sách bảo mật
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            </div>
+                    </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Google
+                            </a>
+                        </div>
                 </div>
             </div>
         </div>
