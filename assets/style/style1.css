@@ -1,3 +1,94 @@
 /*
     Write container index1 here
 */
+*{ 
+    margin: 0;
+    padding: 0;
+}
+
+.container__p1__1{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:  #CEA69D;
+    height: 261px;
+}
+
+.container__p1__1-item1{
+    text-align: center;
+    color: white;
+    font-size: 3.125rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 3.75rem;
+}
+
+.container__p1__1-item2 li{
+    display: inline-block;
+    padding: 0 1.853rem 0 1.853rem;
+    border-right: 3px solid white;
+}
+
+#p1__1-item2-list1{
+    padding-left: 0;
+}
+#p1__1-item2-list4 {
+    border-right: none;
+    padding-right: 0;
+}
+
+.container__p1__1-item2 li > a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.563rem;
+    font-weight: 550;
+}
+
+.container__p1__1-item2{
+    position: absolute;
+    top: 10.271rem;
+    left: 21.238rem;
+}
+
+/*p1__2*/
+.container__p1__2 {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    background-color: white;
+}
+.container__p1__2-item1 li{
+    display: inline-block;
+    max-width: 16.25rem ;
+    padding: 1.219rem 10.225rem 1.219rem 0.625rem;
+    border: 0.063rem solid #b2b2b2;
+    
+    margin-right: 1.313rem;
+}
+
+.container__p1__2-item1 {
+    position: absolute;
+    margin-top: 1.11rem;
+    margin-left: 10.5rem;
+}
+
+.container__p1__2-item1 li > a{
+    color: #b2b2b2;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.313rem;
+    font-weight: 600 ;
+}
+
+.container__p1__2-item2 {
+    text-align: center;
+    color: #000000;
+    font-size: 3.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 9.128rem;
+}
