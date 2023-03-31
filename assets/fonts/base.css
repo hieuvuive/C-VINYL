@@ -20,3 +20,13 @@
     transform: scale(1);
     }
 }
+
+/*Dùng cho máy tính bảng*/
+@media screen and (max-width: 63.9375rem) {
+    
+}
+
+/*Dùng cho điện thoại*/
+@media screen and (max-width: 46.1875rem){
+    
+}
