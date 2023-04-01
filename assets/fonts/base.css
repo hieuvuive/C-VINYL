@@ -84,20 +84,15 @@
       }
     
       .footer__group-1 {
-        order: 3;
         margin-top: 20px;
       }
     
       .footer__group-2 {
-        order: 1;
-        width: 100%;
-        margin-bottom: 20px;
+        display: none;
       }
     
       .footer__group-3 {
-        order: 2;
-        width: 100%;
-        margin-bottom: 20px;
+        display: none;
       }
     
       .footer__font {
