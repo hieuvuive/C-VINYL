@@ -44,7 +44,7 @@
                     <div class="header__navbar-item"><a id="header__navbar-item--1" href="index1.html"><div> Products</div></a></div>
                     <div class="header__navbar-item"><a id="header__navbar-item--2" href="index2.html"><div> Starter Packs</div></a></div>
                     <div class="header__navbar-item"><a id="header__navbar-item--3" href="index3.html"><div> Services</div></a></div>
-                    <div class="header__navbar-item"><a id="header__navbar-item--4" href="index4.html"><div> About Us</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--4 header__navbar-item__activated" href="index4.html"><div> About Us</div></a></div>
                 </div>
                 <div class="header__navbar-vinyl">
                     <img src="./assets/img/dist2.png" alt="" class="header__navbar-vinyl-dist">
@@ -58,7 +58,9 @@
                     </div>
                     <div class="header__navbar-register">
                         <button class="header__navbar-register-button" onclick="icon()">Log in</button>
-
+                        <button class="header__navbar-register-button" id="sign-up">Sign up</button>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="header--responsive">
@@ -127,5 +129,49 @@ Thank you for choosing C-VINYL for your analog music needs. We look forward to s
                 </div>
             </div>
         </div>
+        <div class="modal" id="modal__sign-up">
+            <div class="model__overlay"></div>
+                <div class="auth-form">
+            <div class="modal__inner">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                            <div class="auth-form__assign">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng kí bạn đã đồng ý với C-VINYL về
+                                    <a class="auth-form__text-link" href="">
+                                        Điều khoản dịch vụ
+                                    </a>&
+                                    <a class="auth-form__text-link" href="">
+                                        Chính sách bảo mật
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__controls-back" id="auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            </div>
+                    </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Google
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./assets/fonts/script.js"></script>
 </body>
 </html>
