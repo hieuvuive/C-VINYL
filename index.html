@@ -15,10 +15,18 @@
         }
     </script>
     <script>
-        const signupButton = document.querySelector('#sign-up');
-        const modal = document.querySelector('.modal');
+        var opening = false
+        button = document.getElementById('sign-up')
+        form = document.getElementBy('modal__sign-up')
         
-        signupButton.addEventListener('click', function() {modal.style.display = 'flex'});
+        button.addEventListener('click',()=>{form.style.display = 'flex';})
+    </script>
+    <script>
+        const menuBtn = document.querySelector('.header__navbar-icon--child');
+        const menuList = document.querySelector('.header__navbar-list');
+        menuBtn.addEventListener('click', () => {
+        menuList.classList.toggle('active');
+        });
     </script>
 </head>
 <body>
@@ -46,6 +54,24 @@
                         <button class="header__navbar-register-button" onclick="icon()">Log in</button>
                         <button class="header__navbar-register-button" id="sign-up">Sign up</button>
                     </li>
+                </ul>
+            </div>
+        </div>
+        <div class="header--responsive">
+            <div class="header__navbar--resposive">
+                <ul class="header__navbar-list-item--responsive">
+                    <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 31px;"></div>
+                    <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 25.729px;"></div>
+                    <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 17.979px;"></div>
+                </ul>
+                <div class="header__navbar-vinyl--responsive">
+                    <img src="./assets/img/dist2.png" alt="" class="header__navbar-vinyl-dist--responsive">
+                    <a href="index.html" id="header__navbar-vinyl--return--responsive"><span style="font-weight:1000;font-size: 1.4rem;">C-VINYL</span></a>
+                </div>
+                <ul class="header__navbar-list--responsive">
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="./assets/img/giohang.png" alt=""></div>
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="/assets/img/ngonngu.png" alt=""></div>
+                    <div><img onclick="icon()"class="header__navbar-icon--child" src="./assets/img/kinhlup.png" alt=""></div>
                 </ul>
             </div>
         </div>
@@ -148,7 +174,7 @@
                 </div>
             </div>
         </div>
-        <div class="modal">
+        <div class="modal" id="modal__sign-up">
             <div class="model__overlay"></div>
                 <div class="auth-form">
             <div class="modal__inner">
