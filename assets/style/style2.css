@@ -42,6 +42,9 @@
     display: flex;
     justify-content: space-around;
 }
+.container__p2__2-item2--child{
+    width: 40%;
+}
 .container__p2__1-item3{
     display: flex;
     flex-wrap: wrap;
@@ -73,4 +76,33 @@
 .container__p2__3-child--option:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+/*PC*/
+@media (min-width:1024px){
+    
+}
+
+/*Tablet*/
+@media (min-width:740px) and (max-width: 1023px){
+    
+}
+
+/*Mobile*/
+@media(max-width:739px){
+    .container__p2__3-child--text{
+        padding: 20px 0;
+    }
+    .container__p2__3-child--box{
+        padding: 0;
+        margin: 0;
+        font-size: 0.8rem;
+    }
+    .container__p2__2-item2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container__p2__2-item2--child{
+        width: 90%;
+        text-align: justify;
+    }
 }
