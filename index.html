@@ -14,6 +14,12 @@
             alert("Sorry, this feature has not been defined!")
         }
     </script>
+    <script>
+        const signupButton = document.querySelector('#sign-up');
+        const modal = document.querySelector('.modal');
+        
+        signupButton.addEventListener('click', function() {modal.style.display = 'flex'});
+    </script>
 </head>
 <body>
     
@@ -107,39 +113,79 @@
         </div>
         <!--FOOTER-->
         <div class="footer">
-            <div class="footer-content" style="background-color: #CEA69D;">
-                <div class="footer__group">
-                    <div class="footer__group-1">
-                        <div><img src="./asssets/img/dist3.png" alt=""></div>
-                        <div class="footer__font" style="font-weight: 900">C-VINYL</div>
-                        <span style="color: #fff;">Find your true genres</span>
-                    </div>
-                    <div class="footer__group-2" style="width: 22%; flex-shrink: 1;">
-                        <div class="footer__font"style="font-weight: 300px;">INFORMATION</div>
-                        <div class="footer__group-line"></div>
-                        <div class="footer__group-2-child">
-                            <div class="footer__child">
-                                <span class="footer__font">About us</span>
-                                <span class="footer__font">Mixtape</span>
-                            </div>
-                            <span class="footer__font">Newsletter</span>
+            <div class="footer__group" style="background-color: #CEA69D;">
+                <div class="footer__group-1">
+                    <div><img src="./assets/img/dist3.png" alt=""></div>
+                    <div class="footer__font" style="font-weight: 900">C-VINYL</div>
+                    <span style="color: #fff;">Find your true genres</span>
+                </div>
+                <div class="footer__group-2">
+                    <div class="footer__font"style="font-weight: 300px;">INFORMATION</div>
+                    <div class="footer__group-line"></div>
+                    <div class="footer__group-2-child">
+                        <div class="footer__child">
+                            <span class="footer__font">About us</span>
+                            <span class="footer__font">Mixtape</span>
                         </div>
+                        <span class="footer__font">Newsletter</span>
                     </div>
-                    <div class="footer__group-3" style="width: 26.75%; flex-shrink: 1;">
-                        <div class="footer__font"style="font-weight: 300px;">SUPPORT</div>
-                        <div class="footer__group-line"></div>
-                        <div class="footer__group-3-child">
-                            <div class="footer__child">
-                                <div class="footer__font">Delivery</div>
-                                <div class="footer__font" style="width: 111.22px;">Pay</div>
-                            </div>
-                            <div class="footer__child">
-                                <div class="footer__font">Contact</div>
-                                <div class="footer__font">Shopping guide</div>
-                            </div>
-                            <div class="footer__font">Private Policy</div>                      
+                </div>
+                <div class="footer__group-3">
+                    <div class="footer__font"style="font-weight: 300px;">SUPPORT</div>
+                    <div class="footer__group-line"></div>
+                    <div class="footer__group-3-child">
+                        <div class="footer__child">
+                            <div class="footer__font">Delivery</div>
+                            <div class="footer__font" style="width: 111.22px;">Pay</div>
                         </div>
+                        <div class="footer__child">
+                            <div class="footer__font">Contact</div>
+                            <div class="footer__font">Shopping guide</div>
+                        </div>
+                        <div class="footer__font">Private Policy</div>                      
                     </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal">
+            <div class="model__overlay"></div>
+                <div class="auth-form">
+            <div class="modal__inner">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                            </div>
+                            <div class="auth-form__assign">
+                                <p class="auth-form__policy-text">
+                                    Bằng việc đăng kí bạn đã đồng ý với C-VINYL về
+                                    <a class="auth-form__text-link" href="">
+                                        Điều khoản dịch vụ
+                                    </a>&
+                                    <a class="auth-form__text-link" href="">
+                                        Chính sách bảo mật
+                                    </a>
+                                </p>
+                            </div>
+                            <div class="auth-form__controls">
+                                <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            </div>
+                    </div>
+                        <div class="auth-form__socials">
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Facebook
+                            </a>
+                            <a href="" class="btn btn--with-icon">
+                                Kết nối với Google
+                            </a>
+                        </div>
                 </div>
             </div>
         </div>
