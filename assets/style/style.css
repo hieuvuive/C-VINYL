@@ -162,27 +162,68 @@ body
 } */
 
 .container__1 {
-    width: auto;
-    height: 890px;
-    left: 0px;
-    top: 0px;
+    width: 100%;height: auto;
     background: #A56541;
 }
 
 .container__1-text {
     font-style: normal;
-    font-weight: 400;
+    font-weight: 1000;
     font-size: 3.125rem;
     line-height: 4rem;
     display: flex;
     justify-content: center;
     color: #FFFFFF;
+    font-family: 'Montserrat';
 }
 .container__1-box{
     display: flex;
+    color: #fff;
+    justify-content: space-between;
 }
-
+.container__1-box-child{
+    padding: 200px 5px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 1.2rem;
+}
+.container__1-box--singer{
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.container__1-box--album{
+    font-weight: 200;
+}
+.container__1-box--buy{
+    color: #000;
+    font-size: large;
+    font-weight: 1000;
+    background-color: #fffa;
+    border: 2px solid #FFFFFF;
+    border-radius: 200px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container__1-box--buy:hover{
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 4px 4px 6px brown;
+}
+.container__1-famyly-pic{
+    width: 50%;
+    margin: 30px 0 100px 100px;
+    background: url(image.png);
     
+}
+.container__1-disc-pic{
+    width: 40%;
+    margin: 50px -400px;
+    background: url(.png);
+}
+/*   
     background: url(image.png);
     border: 3px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
