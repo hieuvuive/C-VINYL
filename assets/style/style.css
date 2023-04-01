@@ -153,24 +153,22 @@ body
     left: 0px;
     top: 0px;
     background: #A56541;
-    position: relative;
 }
 
-.container__title {
-    top: 77px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.container__1-text {
     font-style: normal;
     font-weight: 400;
-    font-size: 50px;
-    line-height: 67px;
+    font-size: 3.125rem;
+    line-height: 4rem;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
     color: #FFFFFF;
 }
+.container__1-box{
+    display: flex;
+}
 
-.container__famyly-pic {
+/* .container__famyly-pic {
     height: 400px;
     left: 105px;
     top: 200px;
@@ -228,9 +226,7 @@ body
     color: #000;
     font-size: large;
     font-weight: 1000;
-    font-family: Arial, Helvetica, sans-serif;
     background-color: #fffa;
-    
     border: 2px solid #FFFFFF;
     border-radius: 200px;
     margin-left: 72vw;
@@ -245,7 +241,7 @@ body
     cursor: pointer;
     background-color: #fff;
     box-shadow: 4px 4px 6px brown;
-}
+} */
 
 /*Container__2*/
 

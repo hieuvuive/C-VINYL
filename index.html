@@ -14,20 +14,7 @@
             alert("Sorry, this feature has not been defined!")
         }
     </script>
-    <script>
-        var opening = false
-        button = document.getElementById('sign-up')
-        form = document.getElementBy('modal__sign-up')
-        
-        button.addEventListener('click',()=>{form.style.display = 'flex';})
-    </script>
-    <script>
-        const menuBtn = document.querySelector('.header__navbar-icon--child');
-        const menuList = document.querySelector('.header__navbar-list');
-        menuBtn.addEventListener('click', () => {
-        menuList.classList.toggle('active');
-        });
-    </script>
+    
 </head>
 <body>
     
@@ -78,16 +65,17 @@
         <!--CONTAINER-->
         <div class="container ">
             <div class="container__1">
-                <div class="container__title">SUGGESTION</div>
-                <img src="./assets/img/dist.png" alt="" class="container__disc-pic">
-                <img src="./assets/img/Kendrick.jpg" alt="" class="container__famyly-pic">
-                <div class="container__text">
-                    <div class="container__singer">Kendrick Lamar</div>
-                    <div class="container__album">  Mr.Morale &</div>
-                    <div class="container__album">the Big Steppers</div>
+                <div class="container__1-text">SUGGESTION</div>
+                <div class="container__1-box">
+                    <div><img src="./assets/img/Kendrick.jpg" alt="" class="container__famyly-pic"></div>
+                    <div><img src="./assets/img/dist.png" alt="" class="container__disc-pic"></div>
+                    <div class="container__text">
+                        <div class="container__1-box-singer">Kendrick Lamar</div>
+                        <div class="container__1-box-album">  Mr.Morale &</div>
+                        <div class="container__1-box-album">the Big Steppers</div>
+                        <div class="container__1-box--buy">BUY NOW</div>
+                    </div>
                 </div>
-    
-                <div class="container__buy">BUY NOW</div>
             </div>
 
             <div class="container__2">
@@ -201,7 +189,7 @@
                                 </p>
                             </div>
                             <div class="auth-form__controls">
-                                <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                                <button class="btn auth-form__controls-back" id="auth-form__controls-back">TRỞ LẠI</button>
                                 <button class="btn btn--primary">ĐĂNG KÝ</button>
                             </div>
                     </div>
@@ -216,5 +204,7 @@
                 </div>
             </div>
         </div>
+
+        <script src="./assets/fonts/script.js"></script>
 </body>
 </html>
