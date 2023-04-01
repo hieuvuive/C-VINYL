@@ -40,7 +40,15 @@
 
 /*Mobile*/
 @media(max-width:739px){
-    
+    .footer-group{
+        flex-direction: column;
+    }
+    .footer-group-1{
+    }
+    .footer-group-2{
+    }
+    .footer-group-3{
+    }
 }
 .modal {
     position: fixed;
