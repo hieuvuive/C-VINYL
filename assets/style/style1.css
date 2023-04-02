@@ -7,7 +7,7 @@
 }
 
 html{
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .container__p1__1{
@@ -100,7 +100,7 @@ html{
     font-weight: 600;
 }
 
-.container__p1__2-item2 {
+.container__p1__bigtitle{
     text-align: center;
     color: #000000;
     font-size: 3.75rem;
@@ -256,3 +256,33 @@ html{
 .span-item1 span {
     color: #fff;
 }
+
+/* TIME PERIOD */
+
+.container__p1__3{
+    position: relative;
+}
+
+.container__p1__3-smalltitle{
+    font-size: 2.5rem;
+    font-family: "Monsterrat";
+    font-weight: bold;
+    margin-left: 5.625rem;
+}
+
+.container__p1__3-sub{
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: normal;
+    margin: 2.313rem 5.625rem;
+}
+
+.container__p1__3__img > img{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 87.0vw;
+    height: auto;
+    padding-bottom: 6.313rem;
+}
+
