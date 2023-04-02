@@ -175,6 +175,7 @@ body
     justify-content: center;
     color: #FFFFFF;
     font-family: 'Montserrat';
+    padding-top: 20px;
 }
 .container__1-box{
     display: flex;
@@ -235,8 +236,8 @@ body
     background: url(.png);
 }
 .container__2and3{
+    background: linear-gradient(180deg, #E8C0B7, #C4887B, #E8C1B8, #ECDBD5);
     /* background-color: linear-gradient(180deg, #E8C0B7 0%, #C4887B 19.27%, #E8C1B8 55.21%, #ECDBD5 100%); */
-    background-color: red;
 }
 /*Container__2*/
 .container__2{
@@ -317,12 +318,16 @@ body
 /* container__3*/
 
 .container__3 {
-    width: auto;
-    height: 1200px;
-    background-color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    font-family: 'Climate Crisis';
+    font-size: 2rem;
+    font-weight:1000;
+    margin: 20px auto;
+    color: #FFF;
 }
 
-.container__3-title {
+/* .container__3-title {
     font-style: normal;
     font-weight: 800;
     font-size: 30px;
@@ -355,7 +360,7 @@ body
     height: 40px;
     margin-left: 1315px;
     margin-top: 35px;
-}
+} */
 /* .footer {
     
 } */
