@@ -150,6 +150,7 @@ html{
   }
   .content {
     margin: 0;
+    margin-top: 20px;
   }
   
   .name {
@@ -186,6 +187,7 @@ html{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-bottom: 13px;
   }
   .label {
     display: flex;
