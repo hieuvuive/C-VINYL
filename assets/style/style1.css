@@ -230,12 +230,14 @@ html{
     align-items: center;
     margin-bottom: 2rem;
   }
+
+
   .switch-panel {
     display: flex;
     justify-content: flex-end;
     margin-top: -5.2rem;
     margin-right: 5.625rem;
-    margin-bottom: 10rem;
+    margin-bottom: 6.313rem;
     
   }
 
@@ -288,3 +290,37 @@ html{
     padding-bottom: 6.313rem;
 }
 
+/* MOOD */
+
+.container__p1__4__content{
+    display: flex;
+    flex-direction: row;
+    font-family: "Montserrat";
+}
+.container__p1__4-mood {
+    font-size: 1.875rem;
+    font-family: "Monsterrat";
+    font-weight: bold;
+    margin-left: 5.625rem;
+    padding-right: 1.393rem;
+}
+
+.container__p1__4-viewall{
+    line-height: 2.281rem;
+    padding-right: 0.55rem;
+    font-size: 1rem;
+}
+.ti-angle-double-right{
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #b2b2b2;
+    width: 86.368vw;
+    height: 1px;
+    margin: 2rem auto;
+    padding: 0;
+  }
+  
