@@ -229,13 +229,15 @@ html{
     display: flex;
     align-items: center;
     margin-bottom: 2rem;
+    margin-left: 5.625rem;
+    margin-top: 1rem
   }
 
 
   .switch-panel {
     display: flex;
     justify-content: flex-end;
-    margin-top: -5.2rem;
+    margin-top: -4.2rem;
     margin-right: 5.625rem;
     margin-bottom: 6.313rem;
     
