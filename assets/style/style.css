@@ -181,11 +181,12 @@ body
     color: #fff;
     justify-content: space-between;
 }
+
 .container__1-box-child{
-    padding: 200px 5px;
+    padding: 200px 50px;
     text-align: center;
     font-family: 'Montserrat';
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 .container__1-box--singer{
     font-weight: 700;
@@ -206,102 +207,74 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px auto;
 }
 .container__1-box--buy:hover{
     cursor: pointer;
     background-color: #fff;
     box-shadow: 4px 4px 6px brown;
 }
+
+.container__1-box__content{
+    position: relative;;
+    width: 40%;
+    padding: 0 200px;
+}
 .container__1-famyly-pic{
-    width: 50%;
-    margin: 30px 0 100px 100px;
+    width: 100%;
     background: url(image.png);
+    position: absolute;
+    z-index: 5;
     
 }
 .container__1-disc-pic{
-    width: 40%;
-    margin: 50px -400px;
+    width: 80%;
+    left: 50%;
+    top: 8%;
+    position: absolute;
     background: url(.png);
 }
-/*   
-    background: url(image.png);
-    border: 3px solid #FFFFFF;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));
-    border-radius: 3px;
-    position: absolute;
+.container__2and3{
+    /* background-color: linear-gradient(180deg, #E8C0B7 0%, #C4887B 19.27%, #E8C1B8 55.21%, #ECDBD5 100%); */
+    background-color: red;
 }
-
-.container__disc-pic {
-    height: 380px;
-    width: 380px;
-    
-    margin-top: 200px;
-    margin-left: 575px;
-
-    background: url(.png);
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    position: absolute;
-}
-
-.container__text {
-    width: 369px;
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 25px;
-    line-height: 30px;
-    display: flex;
-    display: block;
-    margin-left: 965px;
-    margin-top: 300px;
-    color: #FFFFFF;
-    
-}
-
-.container__singer {
-    font-weight: 700;
-    margin-left: 90px;
-}
-
-.container__album {
-    font-weight: 20;
-    text-align: center;
-}
-
-
-.container__buy {
-    height: 60.2px;
-    top: 501px;
-    width: 185px;
-    color: #000;
-    font-size: large;
-    font-weight: 1000;
-    background-color: #fffa;
-    border: 2px solid #FFFFFF;
-    border-radius: 200px;
-    margin-left: 1050px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.container__buy:hover {
-    cursor: pointer;
-    background-color: #fff;
-    box-shadow: 4px 4px 6px brown;
-} */
-
 /*Container__2*/
-
-.container__2 {
-    width: auto;
-    height: 2750px;
+.container__2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+.container__2-text{
+    color: white;
+    width: 40%;
+}
+.container__2-title{
+    margin-top: 100px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 73px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Indigo Moon';
+}
+.container__2-content{
+    text-align: left;
+    font-style: normal;
+    padding: 20px;
+    font-family: 'Montserrat';
+}
+.container__2-question{
+    color: #000;
+    padding: 5px auto;
+}
+/* .container__2 {
+    width: 100%;
     background: linear-gradient(180deg, #E8C0B7 0%, #C4887B 19.27%, #E8C1B8 55.21%, #ECDBD5 100%);
     border-radius: 20px 20px 0px 0px;
-    position: relative;
-    
 }
 
 .text {
@@ -339,7 +312,7 @@ body
     position: absolute;
     margin-left: 540px;
     margin-top: -300px;
-}
+} */
 
 /* container__3*/
 
