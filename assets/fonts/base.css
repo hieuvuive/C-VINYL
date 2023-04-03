@@ -125,6 +125,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 5;
   }
   
   .modal__overlay {
@@ -240,6 +241,7 @@
     display: none;
     justify-content: center;
     align-items: center;
+    z-index: 4;
 }
 .hamburger__inner{
     position: relative;
@@ -248,4 +250,16 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     width: 100%;
+}
+.hamburger-inner-nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hamburger-inner-authen{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 30px;
+}
+#hamburger-btn{
+    cursor: pointer;
 }
