@@ -12,6 +12,7 @@ html{
 
 .container__p1__1{
     width: 100%;
+    height: 13.875rem;
     display: flex;
     flex-direction: column;
     background-color:  #CEA69D;
@@ -105,6 +106,15 @@ html{
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     padding-top: 5rem;
+    padding-bottom: 3rem;
+}
+.container__p1__bigtitle1{
+    text-align: center;
+    color: #000000;
+    font-size: 3.75rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    padding-top: 1rem;
     padding-bottom: 3rem;
 }
 
