@@ -427,4 +427,9 @@ body
     .container__2-human{
         width: 90%;
     }
+    .container__1-box-child{
+        padding: 0;
+        font-size: 0.8rem;
+    }
   }
+  
