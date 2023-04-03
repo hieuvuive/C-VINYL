@@ -70,11 +70,9 @@
             <div class="container__1">
                 <div class="container__1-text">SUGGESTION</div>
                 <div class="container__1-box">
-                    <div class="container__1-box__content">
-                        <div class="container__1-famyly-pic"><img style="border: 3px solid #FFFFFF;
-                            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));border-radius: 3px;width: 50%;" src="./assets/img/Kendrick.jpg" alt=""></div>
-                        <div class="container__1-disc-pic"><img style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));width:50%" src="./assets/img/dist.png" alt="" ></div>
-                    </div>                   
+                    <div class="container__1-famyly-pic"><img style="border: 3px solid #FFFFFF;
+                        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.5));border-radius: 3px;width: 100%;height: auto;" src="./assets/img/Kendrick.jpg" alt=""></div>
+                    <div class="container__1-disc-pic"><img style="filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));width:100%;height: auto;" src="./assets/img/dist.png" alt="" ></div>
                     <div class="container__1-box-child">
                         <div class="container__1-box--singer">Kendrick Lamar</div>
                         <div class="container__1-box--album">  Mr.Morale &</div>
@@ -95,7 +93,7 @@
                             <div class="container__2-question">Who is your favorite artist?...</div>
                         </div>
                     </div>
-                    <div><img style="width:100%" src="./assets/img/Group 77.png" alt="" class="human"></div>
+                    <div class="container__2-human"><img style="width:100%" src="./assets/img/Group 77.png" alt="" ></div>
                 </div>
                 <div class="container__3">HIGHLIGHT</div>
                 <img style="width: 100% ;height: auto;" src="./assets/img/Group 3.png" alt="">        
@@ -165,48 +163,62 @@
             </div>
         </div>
         <div class="modal" id="modal__sign-up">
-            <div class="model__overlay"></div>
-                <div class="auth-form">
-            <div class="modal__inner">
-                    <div class="auth-form__container">
-                        <div class="auth-form__header">
-                            <h3 class="auth-form__heading">Đăng ký</h3>
-                            <span class="auth-form__switch-btn">Đăng nhập</span>
+            <!-- <div class="model__overlay"></div> -->
+            <div class="auth-form">
+                <div class="modal__inner">
+                        <div class="auth-form__container">
+                            <div class="auth-form__header">
+                                <h3 class="auth-form__heading">Đăng ký</h3>
+                                <span class="auth-form__switch-btn">Đăng nhập</span>
+                            </div>
+                            <div class="auth-form__form">
+                                <div class="auth-form__group">
+                                    <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                    <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                                    <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                                </div>
+                                <div class="auth-form__assign">
+                                    <p class="auth-form__policy-text">
+                                        Bằng việc đăng kí bạn đã đồng ý với C-VINYL về
+                                        <a class="auth-form__text-link" href="">
+                                            Điều khoản dịch vụ
+                                        </a>&
+                                        <a class="auth-form__text-link" href="">
+                                            Chính sách bảo mật
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="auth-form__controls">
+                                    <button class="btn auth-form__controls-back" id="auth-form__controls-back">TRỞ LẠI</button>
+                                    <button class="btn btn--primary">ĐĂNG KÝ</button>
+                                </div>
                         </div>
-                        <div class="auth-form__form">
-                            <div class="auth-form__group">
-                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
-                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
-                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
-                            </div>
-                            <div class="auth-form__assign">
-                                <p class="auth-form__policy-text">
-                                    Bằng việc đăng kí bạn đã đồng ý với C-VINYL về
-                                    <a class="auth-form__text-link" href="">
-                                        Điều khoản dịch vụ
-                                    </a>&
-                                    <a class="auth-form__text-link" href="">
-                                        Chính sách bảo mật
-                                    </a>
-                                </p>
-                            </div>
-                            <div class="auth-form__controls">
-                                <button class="btn auth-form__controls-back" id="auth-form__controls-back">TRỞ LẠI</button>
-                                <button class="btn btn--primary">ĐĂNG KÝ</button>
+                            <div class="auth-form__socials">
+                                <a href="" class="btn btn--with-icon">
+                                    Kết nối với Facebook
+                                </a>
+                                <a href="" class="btn btn--with-icon">
+                                    Kết nối với Google
+                                </a>
                             </div>
                     </div>
-                        <div class="auth-form__socials">
-                            <a href="" class="btn btn--with-icon">
-                                Kết nối với Facebook
-                            </a>
-                            <a href="" class="btn btn--with-icon">
-                                Kết nối với Google
-                            </a>
-                        </div>
                 </div>
             </div>
         </div>
 
         <script src="./assets/fonts/script.js"></script>
+
+        <div class="hamburger-menu" id="hamburger-menu">
+            <!-- <div class="model__overlay"></div> -->
+            <div class="hamburger-form">
+                <div class="hamburger__inner">
+                    <div class="header__navbar-item"><a id="header__navbar-item--1" href="index1.html"><div> Products</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--2" href="index2.html"><div> Starter Packs</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--3" href="index3.html"><div> Services</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--4" href="index4.html"><div> About Us</div></a></div>
+                </div>
+            </div>
+        </div>
+        
 </body>
 </html>

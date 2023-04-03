@@ -62,11 +62,20 @@
 }
 
 /*Mobile*/
-@media(max-width:779px){
+@media (min-width:500) and (max-width:779px){
     #container__p3__2-box--second{
         width: 90%;
     }
     #container__p3__2-text--first{
+        margin: 200px 0px 30px 0px;
+    }
+}
+
+@media(max-width:499px){
+    #container__p3__2-text--first{
         margin: 50px 0px 30px 0px;
+    }
+    #container__p3__2-box--second{
+        width: 90%;
     }
 }
