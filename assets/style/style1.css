@@ -338,7 +338,7 @@ hr {
 /* Carousel */
 .wrapper-list {
   display: flex;
-  max-width: 1200px;
+  max-width: 85%;
   position: relative;
   
 }
@@ -517,6 +517,20 @@ transition: transform 0.1s linear;
   justify-content: center;
   background: #e3e3f7;
   font-weight: 600;
+}
+
+@media screen and (width: 820px) {
+  .carousel .content-container-list{
+    width: 80%;
+    margin-left: 5vw;
+    }
+  
+}
+@media screen and (max-width: 550px) {
+  .carousel .content-container-list{
+    width: 80%;
+    margin-left: 5vw;
+  }
 }
   /*PC*/
 @media (min-width:1024px){
