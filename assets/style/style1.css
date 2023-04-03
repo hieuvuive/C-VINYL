@@ -532,4 +532,9 @@ transition: transform 0.1s linear;
     #p1__1-item2-list4{
       display: none;
     }
+    .header__navbar-list-item--responsive{
+      width: 20%;
+      margin: 16px 0;
+      padding-left: 40px;
+  }
 }

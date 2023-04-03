@@ -184,6 +184,9 @@ body
 }
 
 .container__1-box-child{
+    /* display: flex;
+    flex-direction: column; */
+    /* width: 30%; */
     padding: 200px 50px;
     text-align: center;
     font-family: 'Montserrat';
@@ -217,31 +220,33 @@ body
 }
 
 .container__1-box__content{
-    position: relative;;
-    width: 40%;
+    /* position: relative;; */
+    display: flex;
+    width: 70%;
     padding: 0 200px;
+    justify-content: center;
 }
 .container__1-famyly-pic{
     width: 100%;
-    background: url(image.png);
-    position: absolute;
-    z-index: 5;
+    /* background: url(image.png); */
+    /* position: absolute; */
+    /* z-index: 5; */
     
 }
 .container__1-disc-pic{
     width: 80%;
     left: 50%;
     top: 8%;
-    position: absolute;
-    background: url(.png);
+    /* position: absolute; */
+    /* background: url(.png); */
 }
 .container__2and3{
     background: linear-gradient(180deg, #E8C0B7, #C4887B, #E8C1B8, #ECDBD5);
-    /* background-color: linear-gradient(180deg, #E8C0B7 0%, #C4887B 19.27%, #E8C1B8 55.21%, #ECDBD5 100%); */
 }
 /*Container__2*/
 .container__2{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
@@ -263,6 +268,7 @@ body
     font-family: 'Indigo Moon';
 }
 .container__2-content{
+    display: flex;
     text-align: left;
     font-style: normal;
     padding: 20px;
@@ -403,3 +409,27 @@ body
     display: flex; justify-content: space-between; margin-bottom: 10px;
 }
 
+  /*PC*/
+  @media (min-width:1024px){
+    
+  }
+  
+  /*Tablet*/
+  @media (min-width:780px) and (max-width: 1023px){
+      
+  }
+  
+  /*Mobile*/
+  @media(max-width:779px){
+    .container__2-text{
+        width: 90%;
+    }
+    .container__2-human{
+        width: 90%;
+    }
+    .container__1-box-child{
+        padding: 0;
+        font-size: 0.8rem;
+    }
+  }
+  
