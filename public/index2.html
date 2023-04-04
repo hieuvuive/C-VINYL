@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <link rel="stylesheet" href="./assets/fonts/">
     <link rel="stylesheet" href="./assets/fonts/base.css">
+    <link rel="stylesheet" href="./assets/style/style2.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -17,37 +18,17 @@
             alert("Sorry, this feature has not been defined!")
         }
     </script>
-    <style>
-    .container__p4--text{
-        padding: 100px 40px;
-    }
-    /*PC*/
-    @media (min-width:1024px){
-        
-    }
-    /*Tablet*/
-    @media (min-width:740px) and (max-width: 1023px){
-        
-    }
-    /*Mobile*/
-    @media(max-width:739px){
-        .container__p4--text{
-            padding: 100px 5px;
-            font-size: 0.8rem;text-align: justify;
-        }
-    }
-    </style>
 </head>
 <body>
     
         <!--HEADER HAI-->
         <div class="header">
             <div class="header__navbar">
-                <div class="header__navbar-list header__navbar-list-item" >
+                <div class="header__navbar-list header__navbar-list-item">
                     <div class="header__navbar-item"><a id="header__navbar-item--1" href="index1.html"><div> Products</div></a></div>
-                    <div class="header__navbar-item"><a id="header__navbar-item--2" href="index2.html"><div> Starter Packs</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--2 header__navbar-item__activated" href="index2.html"><div> Starter Packs</div></a></div>
                     <div class="header__navbar-item"><a id="header__navbar-item--3" href="index3.html"><div> Services</div></a></div>
-                    <div class="header__navbar-item"><a id="header__navbar-item--4 header__navbar-item__activated" href="index4.html"><div> About Us</div></a></div>
+                    <div class="header__navbar-item"><a id="header__navbar-item--4" href="index4.html"><div> About Us</div></a></div>
                 </div>
                 <div class="header__navbar-vinyl">
                     <img src="./assets/img/dist2.png" alt="" class="header__navbar-vinyl-dist">
@@ -56,7 +37,7 @@
                 <div class="header__navbar-list">
                     <div class="header__navbar-icon">
                         <div><img onclick="icon()"class="header__navbar-icon--child" src="./assets/img/giohang.png" alt=""></div>
-                        <div><img onclick="icon()"class="header__navbar-icon--child" src="/assets/img/ngonngu.png" alt=""></div>
+                        <div><img onclick="icon()"class="header__navbar-icon--child" src="./assets/img/ngonngu.png" alt=""></div>
                         <div><img onclick="icon()"class="header__navbar-icon--child" src="./assets/img/kinhlup.png" alt=""></div>
                     </div>
                     <div class="header__navbar-register">
@@ -67,8 +48,8 @@
             </div>
         </div>
         <div class="header--responsive">
-            <div class="header__navbar--resposive" id="hamburger-btn">
-                <ul class="header__navbar-list-item--responsive">
+            <div class="header__navbar--resposive">
+                <ul class="header__navbar-list-item--responsive" id="hamburger-btn">
                     <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 31px;"></div>
                     <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 25.729px;"></div>
                     <div style="background-color: #000;margin-bottom: 4px;height: 3px;width: 17.979px;"></div>
@@ -87,7 +68,7 @@
                             </div>
                             <button class="btn auth-form__controls-back controls-back-hambur" id="hamburger__controls-back">TRỞ LẠI</button>
                             </div>
-                    </div>
+                        </div>
                 </ul>
                 <div class="header__navbar-vinyl--responsive">
                     <img src="./assets/img/dist2.png" alt="" class="header__navbar-vinyl-dist--responsive">
@@ -101,15 +82,109 @@
             </div>
         </div>
         <!--CONTAINER-->
-        <div class="container__p4">
-            <div class="container__p4--text">
-                Welcome to C-VINYL, your go-to online store for cassette tapes and analog music! We specialize in bringing you the highest quality C-VINYL tapes featuring the latest and greatest artists, as well as classic hits that never go out of style.
-
-We understand the unique appeal of analog music and the nostalgic feeling that comes with listening to your favorite songs on a cassette tape. That's why we take great care in curating our collection of C-VINYL tapes to bring you the best selection of music in this format.
-
-Our tapes are made using the finest materials and manufacturing techniques, ensuring that you get the best possible sound quality and durability. Whether you're a music lover, a collector, or just starting to explore the world of analog music, we have something for everyone.
-
-Thank you for choosing C-VINYL for your analog music needs. We look forward to serving you and providing you with the best C-VINYL tapes on the market.
+        <div class="container__p2">
+            <div class="container__p2__1">
+                <div class="container__p2__1-item1">101. VINYL</div>
+                <div class="container__p2__1-item2">The beginner's guide</div>
+                <div class="container__p2__1-item3">
+                    <div class="container__p2__3-child--option" onclick=icon()><img style="width: 100%;" src="./assets/img/Group 44.png" alt=""></div>
+                    <div class="container__p2__3-child--option" onclick=icon()><img style="width: 100%;" src="./assets/img/Group 45.png" alt=""></div>
+                    <div class="container__p2__3-child--option" onclick=icon()><img style="width: 100%;" src="./assets/img/Group 47.png" alt=""></div>
+                    <div class="container__p2__3-child--option" onclick=icon()><img style="width: 100%;" src="./assets/img/Group 48.png" alt=""></div>
+                </div>
+            </div>    
+            <div class="container__p2__2">
+                <div class="container__p2__2-item1">WITH C-VINYL, ANYONE CAN "PLAY" VINYL</div>
+                <div class="container__p2__2-item2">
+                    <div class="container__p2__2-item2--child">
+                        <div>There are many conflicting opinions with vinul records:</div>
+                        <ul>
+                            <li><div>The vinul only has</div></li>
+                            <li><div>Only rich people play vinyl</div></li>
+                            <li><div>The vinyls' player is important to sound quality</div></li>
+                            <li><div>Charcoal discs are easily damaged, difficult to maintain</div></li>
+                        </ul>
+                    </div>
+                    <div class="container__p2__2-item2--child">
+                        <div><p>Whatever your prejudices, don't forget vinyl was once
+                             a popular music format. You can <b>play vinyl in a variety of
+                              ways </b> to suit your life style and budget.
+                            </p>
+                        </div>
+                        <div><p>
+                            But before thinking about money,let's cultivate the basics. 
+                            With the belief that <b>anyone can play vinyl</b>, C-Vinyl
+                            temporarily devides the familiarization of vinyl into <b>4 simple
+                            steps</b>. Click on each step to jump to the content you want to
+                            read.
+                        </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container__p2__3"></div>
+                <div class="container__p2__3-child">
+                    <div class="container__p2__3-child--text">1.TUTORIAL</div>
+                    <div class="container__p2__3-child--box" id="container__p2__3-child--box_tutorial">
+                        <div><img style="max-width: 100%; height: auto;" src="./assets/img/image 61.png" alt=""></div>
+                        <div><img style="max-width: 100%; height: auto;" src="./assets/img/image 63.png" alt=""></div>
+                    </div>
+                </div>
+                <div class="container__p2__3-child">
+                    <div class="container__p2__3-child--text">2.CHOOSING THE PHONOGRAPH</div>
+                    <div class="container__p2__3-child--box">
+                        <div style="width:30%; display: flex;flex-direction: column;justify-content: flex-start;flex-shrink: 1;padding-top: 20px;">
+                            <span style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">RECORD PLAYER ></span>
+                            <p style="font-family: Arial, Helvetica, sans-serif;">As a player, you must call the turntable player the 
+                                PLAYER. Good music needs to go hand in hand with a 
+                                good plate.
+                            </p>
+                        </div>
+                        <div style="width: 20%;flex-shrink: 1;">
+                            <div style="padding: 20px 0;"><img style="max-width: 100%;" src="./assets/img/image 43.png" alt=""></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;width: 30%;justify-content: flex-start;max-height: 80%;">
+                            <span style="padding: 20px 0;font-weight: bold;font-family: Arial, Helvetica, sans-serif;">FEATURE PRODUCTS:</span>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default.png" alt=""></div>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default (1).png" alt=""></div>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default (2).png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__p2__3-child">
+                    <div class="container__p2__3-child--text">3.SHOP FOR ACCESORIES</div>
+                    <div class="container__p2__3-child--box">
+                        <div style="width:30%; display: flex;flex-direction: column;justify-content: flex-start;flex-shrink: 1;padding-top: 20px;">
+                            <span style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">ACCESORIES ></span>
+                            <p style="font-family: Arial, Helvetica, sans-serif;">Accesories not only help preserve the disc in the 
+                                most intact way, but also help beautify your space.
+                            </p>
+                        </div>
+                        <div style="width: 20%;flex-shrink: 1;">
+                            <div style="padding: 20px 0;"><img style="max-width: 100%;" src="./assets/img/image 45.png" alt=""></div>
+                        </div>
+                        <div style="display: flex; flex-direction: column;width: 30%;justify-content: flex-start;max-height: 80%;">
+                            <span style="padding: 20px 0;font-weight: bold;font-family: Arial, Helvetica, sans-serif;">FEATURE PRODUCTS:</span>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default (3).png" alt=""></div>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default (4).png" alt=""></div>
+                            <div class="container__p2__3-child--option" onclick=icon()><img style="max-width: 100%;" src="./assets/img/Property 1=Default (2).png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container__p2__3-child" id="container__p2__3-child--thelast">
+                    <div class="container__p2__3-child--text">4. SELECTING DISC ALBUM</div>
+                    <div class="container__p2__3-child--box">                 
+                        <div style="width:50%; display: flex;flex-direction: column;justify-content: flex-start;flex-shrink: 1;padding-top: 20px;">
+                                <span style="font-weight: bold;font-family: Arial, Helvetica, sans-serif;">500+ DISC AVAILABLE AND COUNTLESS PRE-ORDERS</span>
+                                <p style="font-family: Arial, Helvetica, sans-serif;">Musical pieces that define your own musical taste
+                                    and lifestyle
+                                </p>
+                        </div> 
+                        <div style="width: 40%;flex-shrink: 1;">
+                            <div><img style="max-width: 100%;" src="./assets/img/Group 54.png" alt=""></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <!--FOOTER-->
