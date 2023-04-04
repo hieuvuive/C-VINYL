@@ -332,7 +332,10 @@ body
     margin: 20px auto;
     color: #FFF;
 }
-
+.container__5{
+    display: flex;
+    justify-content: space-around;
+}
 /* .container__3-title {
     font-style: normal;
     font-weight: 800;
