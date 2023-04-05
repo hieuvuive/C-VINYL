@@ -13,13 +13,63 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/fonts/icons/themify-icons/themify-icons.css">
     <script src="./script/script1.js" defer></script> 
+    <script type="module" defer>
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";
+        import { getDatabase, firebase } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-database.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+      
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+          apiKey: "AIzaSyBVqxlJFeccQBAefYHlHBRDMslV-q3WtSc",
+          authDomain: "c-vinyl-856bd.firebaseapp.com",
+          databaseURL: "https://c-vinyl-856bd-default-rtdb.firebaseio.com",
+          projectId: "c-vinyl-856bd",
+          storageBucket: "c-vinyl-856bd.appspot.com",
+          messagingSenderId: "199115316354",
+          appId: "1:199115316354:web:74c0fc54797eb91bcaa89b",
+          measurementId: "G-279FM2S04K"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+      </script>
+    <script defer>
+    let saveUserData=()=> {
+        
+        // Lấy các giá trị từ các trường input
+        const email = document.querySelector('input[placeholder="Email của bạn"]').value;
+        const password = document.querySelector('input[placeholder="Mật khẩu của bạn"]').value;
+        const confirmPassword = document.querySelector('input[placeholder="Nhập lại mật khẩu"]').value;
+      
+        // Tạo một object chứa các giá trị này
+        const userData = {
+          email: email,
+          password: password,
+          confirmPassword: confirmPassword
+        };
+      
+        // // Đẩy object này lên Realtime Database
+        // firebase.database().ref('User').push(userData);
+        alert("Đăng ký thành công!")
+    }
+    </script>
     <script defer>
         let icon=()=>
         {
             alert("Sorry, this feature has not been defined!")
         }
     </script>
-    
+    <script>
+        var valueUser = firebase.database().ref('User').child('email');
+       valueUser.on('value', snap => {
+       console.log('email: ', snap.val());
+       document.getElementById("hello").innerHTML= snap.val();})
+     </script>
 </head>
 <body>
     
@@ -68,7 +118,7 @@
                                 <button class="header__navbar-register-button header__navbar-register-button-hambur" onclick="icon()">Log in</button>
                                 <button class="header__navbar-register-button header__navbar-register-button-hambur" id="sign-up--in-hamburger">Sign up</button>
                             </div>
-                            <button class="btn auth-form__controls-back controls-back-hambur" id="hamburger__controls-back">TRỞ LẠI</button>
+                            <button class="btn auth-form__controls-back controls-back-hambur" id="hamburger__controls-back" onclick="consoleon()">TRỞ LẠI</button>
                             </div>
                     </div>
                 </ul>
@@ -670,7 +720,7 @@
                             </div>
                             <div class="auth-form__form">
                                 <div class="auth-form__group">
-                                    <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                                    <input type="text" class="auth-form__input" placeholder="Email của bạn" id="hello">
                                     <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
                                     <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
                                 </div>

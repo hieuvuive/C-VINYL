@@ -34,27 +34,32 @@ hamburger_exit.addEventListener('click',()=>{
     form_hamburger.style.display = 'none'
 })
 
-// const hamburger1 = document.getElementById('hamburger-btn1')
-// const form_hamburger1 = document.getElementById('hamburger-menu1')
-// const hamburger_exit1 = document.getElementById('hamburger__controls-back1')
+//data
 
-// hamburger.addEventListener('click',()=>{
-//     form_hamburger.style.display = 'flex'
-// })
+// function WriteUserData( ) {
+//     // Lấy các giá trị từ các trường input
+//     const email = document.querySelector('input[placeholder="Email của bạn"]').value;
+//     const password = document.querySelector('input[placeholder="Mật khẩu của bạn"]').value;
+//     const confirmPassword = document.querySelector('input[placeholder="Nhập lại mật khẩu"]').value;
+  
+//     // Tạo một object chứa các giá trị này
+//     const userData = {
+//       email: email,
+//       password: password,
+//       confirmPassword: confirmPassword
+//     };
+  
+//     // Đẩy object này lên Realtime Database
+//     firebase.database().ref('User').push(userData);
+//     alert("Đăng ký thành công!")
+//   }
 
-// hamburger_exit.addEventListener('click',()=>{
-//     form_hamburger.style.display = 'none'
-// })
+  //read
 
-// const button1 = document.getElementById('sign-up--in-hamburger')
-// const form1 = document.getElementById('modal__sign-up')
-// const exit1 = document.getElementById('auth-form__controls-back')
-
-// button.addEventListener('click',()=>{
-//     form1.style.display = 'flex'
-// })
-
-// exit.addEventListener('click',()=>{
-//     form1.style.display = 'none'
-// })
+//   var valueUser = firebase.database().ref('User').child('email');
+//     valueUser.on('value', snap => {
+//     console.log('email: ', snap.val());
+//     document.getElementById("hello").innerHTML= snap.val();
+//   })
+  
 
